@@ -53,10 +53,9 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.10</version>
                 <configuration>
-                  
+                  	<imageName>chauhanr/sample-spring-boot</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
                     <configuraton>
-                        <imageName>chauhanr/sample-spring-boot</imageName>
                     	<serverId>docker-hub</serverId>
                     </configuraton>
                     <resources>
