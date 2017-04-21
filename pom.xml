@@ -55,10 +55,7 @@
                 <configuration>
                   	<imageName>chauhanr/sample-spring-boot</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
-                    <configuraton>
-                    	 <serverId>docker-hub</serverId>
-                    	 <registryUrl>https://hub.docker.com</registryUrl>
-                    </configuraton>
+                    <serverId>docker-hub</serverId>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
